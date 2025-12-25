@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Se actualiza cada 24 horas
   schedule: [{cron: "0 0 * * *"}]
-  # También se puede ejecutar manualmente
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -13,17 +11,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Tu token de GitHub se usa automáticamente
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Configuración Visual
           user: Mininh1206
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
           config_display: large
           
-          # Plugin: Lenguajes más usados
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
@@ -32,10 +27,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_colors: "github"
           plugin_languages_threshold: 0%
-          
-          # Plugin: Hábitos de código (sustituye al streak)
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
