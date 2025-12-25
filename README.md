@@ -38,12 +38,10 @@ As an Architect and Engineer, I focus on bridging complex business requirements 
 
 ---
 
-### 📈 Activity
+### 📊 Activity & Analytics
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=Mininh1206&theme=dark&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-  </a>
+  <img src="https://github.com/Mininh1206/Mininh1206/blob/main/github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
 ---
