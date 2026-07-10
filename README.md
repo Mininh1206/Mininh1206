@@ -30,14 +30,6 @@ As an Architect and Engineer, I focus on bridging complex business requirements 
 
 ---
 
-### 🚀 Featured Projects
-
-- **[dsl-framework](https://github.com/Mininh1206/dsl-framework)** *A professional framework designed to simplify the creation and management of Domain-Specific Languages (DSLs), focusing on abstraction and maintainable logic.*
-
-- **[mini-players](https://github.com/Mininh1206/mini-players)** *A personal hobby project built for fun and experimentation—a playground where I test new ideas.*
-
----
-
 ### 📊 Activity & Analytics
 
 <div align="center">
